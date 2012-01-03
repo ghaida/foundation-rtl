@@ -1,7 +1,7 @@
 	<!-- Das Footer -->
-	  <footer class="row">
+<!--	  <footer class="row">
 	    <section class="five columns">
-	      <h6><strong>Made by ZURB</strong></h6>
+	      <h6><strong>صنع زَرب</strong></h6>
         <p>Foundation is made by <a href="http://www.zurb.com/">ZURB</a>, an <a href="http://www.zurb.com/words/design-process">interaction design and strategy company</a> located in Campbell, California. We've put over 10 years of experience building web products, services and websites into this framework. <a href="../about.php">Foundation Info and Goodies &rarr;</a></p>
 	    </section>
 	    
@@ -16,10 +16,10 @@
 	      
 	      <ul class="block-grid three-up">
 	      	<li>
-		      <!-- Place this tag where you want the +1 button to render -->
+		      <!-- Place this tag where you want the +1 button to render --*>
 				<g:plusone size="medium"></g:plusone>
 				
-				<!-- Place this render call where appropriate -->
+				<!-- Place this render call where appropriate --*>
 				<script>
 				  (function() {
 				    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
@@ -39,7 +39,7 @@
 			</li>
 		</div>
 	    </section>
-	  </footer>
+	  </footer>-->
 	  <!-- /Das Footer -->
 	</div>
 
