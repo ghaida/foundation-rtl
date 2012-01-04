@@ -72,7 +72,7 @@ html, body {
 	.row .offset-by-seven 	{ margin-left: 0; margin-right: 65.3%;  }
 	.row .offset-by-eight 	{ margin-left: 0; margin-right: 74.0%;  }
 	.row .offset-by-nine 	{ margin-left: 0; margin-right: 82.7%;  }
-	.row .offset-by-ten 	{ margin-left: ; margin-right: 91.4%;  }
+	.row .offset-by-ten 	{ margin-left: 0; margin-right: 91.4%;  }
 	
 
 	.row .offset-by-one:first-child 	{ margin-left: 0; margin-right: 8.7%; }
@@ -109,6 +109,38 @@ html, body {
 	.pull-ten 		{ right: auto; left: 87%; }	 
 	 
 	.row .centered { float: none; margin: 0 auto; }
+	
+	
+	/* Mobile */
+	@media only screen and (max-width: 767px) {		
+		.column:last-child, .columns:last-child { margin-right: 0 !important; margin-left: 0 !important; }
+		
+		.offset-by-one, .offset-by-two, .offset-by-three, .offset-by-four, .offset-by-five, .offset-by-six, .offset-by-seven, .offset-by-eight, .offset-by-nine, .offset-by-ten, .offset-by-eleven, .centered { margin-right: 0 !important; }
+		
+		.push-two, .push-three, .push-four, .push-five, .push-six, .push-seven, .push-eight, .push-nine, .push-ten { right: auto !important; }
+		.pull-two, .pull-three, .pull-four, .pull-five, .pull-six, .pull-seven, .pull-eight, .pull-nine, .pull-ten { left: auto !important; }
+		
+		/* Mobile 4-column Grid */
+		.row .phone-one.column:first-child, .row .phone-two.column:first-child, .row .phone-three.column:first-child, .row .phone-four.column:first-child, .row .phone-one.columns:first-child, .row .phone-two.columns:first-child, .row .phone-three.columns:first-child, .row .phone-four.columns:first-child { margin-right: 0 !important; }
+		
+		.row .phone-one.column, .row .phone-two.column, .row .phone-three.column, .row .phone-four.column,
+		.row .phone-one.columns, .row .phone-two.columns, .row .phone-three.columns, .row .phone-four.columns { margin-right: 4.4% !important; float: right !important; }
+		
+		
+		.row .columns.push-one-phone { right: 26.08% !important; }
+		.row .columns.push-two-phone { right: 52.2% !important; }
+		.row .columns.push-three-phone { left: auto !important; right: 78.3% !important; }
+		
+		.row .columns.pull-one-phone { left: 26.08% !important; }
+		.row .columns.pull-two-phone { left: 52.2% !important; }
+		.row .columns.pull-three-phone { left: 78.3% !important; }
+		
+		
+	}
+	
+	
+	
+	
 	
 /*	--------------------------------------------------
 	:: Block grids
