@@ -5,8 +5,8 @@
 		<div class="row">
 			<div class="twelve columns">
 				<div class="foundation-header">
-					<h1><a href="index.php">Foundation Docs</a></h1>
-					<h4 class="subheader">Rapid prototyping and building library from ZURB.</h4>
+					<h1><a href="index.php">توثيق الأساس</a></h1>
+					<h4 class="subheader">التطوير العاجل لنماذج المواقع باستخدام الهيكل التجاوبي من زَرب.</h4>
 				</div>
 			</div>
 		</div>
@@ -14,27 +14,25 @@
 		<div class="row">
 			<div class="two columns">
 				<dl class="nice tabs vertical hide-on-phones">
-					<dd><a href="index.php">Getting Started</a></dd>
-					<dd><a href="grid.php" class="active">Grid</a></dd>
-					<dd><a href="buttons.php">Buttons</a></dd>
-					<dd><a href="forms.php">Forms</a></dd>
-					<dd><a href="layout.php">Layout</a></dd>
-					<dd><a href="ui.php">UI</a></dd>
-					<dd><a href="orbit.php">Orbit</a></dd>
-					<dd><a href="reveal.php">Reveal</a></dd>
-					<dd><a href="gems.php">Gems</a></dd>
-					<dd><a href="qa.php">QA</a></dd>
+					<dd><a href="index.php">البداية</a></dd>
+					<dd><a href="grid.php" class="active">الشبكة</a></dd>
+					<dd><a href="buttons.php">الأزرار</a></dd>
+					<dd><a href="forms.php">الاستمارات</a></dd>
+					<dd><a href="layout.php">الشكل العام</a></dd>
+					<dd><a href="ui.php">واجهة الاستخدام</a></dd>
+					<dd><a href="orbit.php">أوربت</a></dd>
+					<dd><a href="reveal.php">ريڤيل</a></dd>
+<!--					<dd><a href="gems.php">Gems</a></dd>-->
+					<dd><a href="qa.php">التحكم بالجودة</a></dd>
 				</dl>
 			</div>
 			<div class="six columns">
-				<h3>The Grid</h3>
-				<h4 class="subheader">The Grid lets you quickly put together page layouts for mobile devices and the desktop. You don't need two different sites - the Grid is built to create a rock-solid experience on all kinds of devices with the exact same markup.</h4>
-				
+				<h3>الشبكة</h3>
+				<h4 class="subheader">تتيح لكم الشبكة ان تطور صفحات المواقع للكومبيوتر و الأجهزة النقالة بسرعة. لن تحتاج لموقع منفصل للأجهزة ذات الشاشات الصغيرة - الشبكة مصممة لتضمن لكم تجربة مستخدم وثيقة بنفس الصفحة.</h4>
 				<hr />
 				
-				<h4>The Basics</h4>
-				<p>The grid is built around three key elements: containers, rows, and columns. Containers create base padding for the page; rows create a max-width and contain the columns; and columns create the final structure. Everything on your page that you don't give a specific structural style to should be within a container, row and column.</p>
-				
+				<h4>الأساسيات</h4>
+				<p>الشبكة مبنية حول ثلاثة قواعد أساسية: الحاويات، الصفوف، و الأعمدة. الحاويات container تكون القاعدة المبطنة للصفحة، الصفوف row تكون أقصى عرض متاح للصفحة و هي ما تحتوي على الأعمدة، ، الأعمدة columns تشكل آخر طبقة من البنية. كل شيء يوضع بالصفحة و لا يتبع تصميم محدد لابد أن يكون داخل حاوية، صف، و عمود.</p>
 				<p>What you need to know is that <strong>columns don't have a fixed width:</strong> they can vary based on the resolution of the screen, or the size of the window (try scaling down this window to see what we mean). Design with that in mind.</p>
 				<script src="http://snipt.net/embed/3b3c66062f90d4cdf9d5e1f7b61c8ce8"></script>
 				

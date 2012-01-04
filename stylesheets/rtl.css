@@ -88,27 +88,27 @@ html, body {
 	.row .offset-by-eleven:first-child 	{ margin-left: 0; margin-right: 95.7%; }
 	
 	/* Source Ordering */
-	.push-two 		{ right: 17.4% }
-	.push-three 	{ right: 26.1%; }
-	.push-four 		{ right: 34.8%; }
-	.push-five 		{ right: 43.5%; }
-	.push-six 		{ right: 52.2%; }
-	.push-seven 	{ right: 60.9%; }
-	.push-eight 	{ right: 69.6%; }
-	.push-nine 		{ right: 78.3%; }
-	.push-ten 		{ right: 87%; }
+	.push-two 		{ left: auto; right: 17.4%; }
+	.push-three 	{ left: auto; right: 26.1%; }
+	.push-four 		{ left: auto; right: 34.8%; }
+	.push-five 		{ left: auto; right: 43.5%; }
+	.push-six 		{ left: auto; right: 52.2%; }
+	.push-seven 	{ left: auto; right: 60.9%; }
+	.push-eight 	{ left: auto; right: 69.6%; }
+	.push-nine 		{ left: auto; right: 78.3%; }
+	.push-ten 		{ left: auto; right: 87%; }
 	
-	.pull-two 		{ left: 17.4% }
-	.pull-three 	{ left: 26.1%; }
-	.pull-four 		{ left: 34.8%; }
-	.pull-five 		{ left: 43.5%; }
-	.pull-six 		{ left: 52.2%; }
-	.pull-seven 	{ left: 60.9%; }
-	.pull-eight 	{ left: 69.6%; }
-	.pull-nine 		{ left: 78.3%; }
-	.pull-ten 		{ left: 87%; }	 
+	.pull-two 		{ right: auto; left: 17.4%; }
+	.pull-three 	{ right: auto; left: 26.1%; }
+	.pull-four 		{ right: auto; left: 34.8%; }
+	.pull-five 		{ right: auto; left: 43.5%; }
+	.pull-six 		{ right: auto; left: 52.2%; }
+	.pull-seven 	{ right: auto; left: 60.9%; }
+	.pull-eight 	{ right: auto; left: 69.6%; }
+	.pull-nine 		{ right: auto; left: 78.3%; }
+	.pull-ten 		{ right: auto; left: 87%; }	 
 	 
-	
+	.row .centered { float: none; margin: 0 auto; }
 	
 /*	--------------------------------------------------
 	:: Block grids

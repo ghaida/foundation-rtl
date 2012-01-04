@@ -1,8 +1,8 @@
 				<div class="panel hide-on-phones">
-					<h4>Get Foundation</h4>
-					<p>Download Foundation here to get started quickly. Includes the base file structure, CSS, JS, and required images.</p>
+					<h4>احصل على الأساس</h4>
+					<p>بإمكانكم تحميل الأساس هنا لبذاية سريعة. تحتوي هذه الرزمة على الأساس المعرب بملفات ال CSS و ال Javascript، بالإضافة للصور اللازمة.</p>
 					<p>
-						<a href="../files/foundation-download-<?= $version ?>.zip" class="nice radius blue button mobile src-download">Download Foundation</a>
+						<a href="../files/foundation-rtl-<?= $version ?>.zip" class="nice radius blue button mobile src-download">تحميل الأساس</a>
 					</p>
 				</div>
 
