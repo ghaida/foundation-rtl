@@ -8,7 +8,7 @@
 :: Tabs
 :: Pagination
 :: Lists
-
+:: Nav Bar with Dropdowns
 */
 
 
@@ -197,6 +197,14 @@ html, body {
     ul.nice li, ol.nice li { padding-right: 13px; padding-left: 0; }
     ul.nice li span.bullet, ol.nice li span.number { right: 0; }
 
+/*	--------------------------------------------------
+   	Nav Bar with Dropdowns
+	-------------------------------------------------- */
+
+	.nav-bar > li { float: right; }
+	.nav-bar>li.has-flyout>a { padding-right: 20px; padding-left: 36px; }
+	.nav-bar>li.has-flyout>a:after { right: auto; left: 18px; }
+	.flyout { right: -1px; left: auto; }
 
 
 
