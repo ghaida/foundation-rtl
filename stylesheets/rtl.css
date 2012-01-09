@@ -159,11 +159,11 @@ html, body {
 	.block-grid>li { float: right; }
 	
 	.block-grid.two-up { margin-left: 0; margin-right: -4% }
-	.block-grid.two-up>li { margin-left: 4%; width: 46%; }
+	.block-grid.two-up>li { margin-left: 0; margin-right: 4%; width: 46%; }
 /* 	.block-grid.two-up>li:nth-child(2n+1) {clear: left;} */
 	
 	.block-grid.three-up { margin-left: 0; margin-right: -2%; }
-	.block-grid.three-up>li { margin-left: 2%; width: 31.3%; }
+	.block-grid.three-up>li { margin-left: 0; margin-right: 2%; width: 31.3%; }
 /* 	.block-grid.three-up>li:nth-child(3n+1) {clear: left;} */
 	
 	.block-grid.four-up { margin-left: 0; margin-right: -2%; }
