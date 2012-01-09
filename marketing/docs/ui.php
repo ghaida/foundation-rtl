@@ -60,15 +60,16 @@
 				
 				<hr />
 				
-				<h4>Panel</h4>
-				<p>A panel is a helpful css class that enables you to outline sections of your page easily. This allows you to view your page sections as you add content to them. Just add a "panel" class to a &lt;div&gt; tag.</p>
+				<h4>Panels</h4>
+				<p>A panel is a simple, helpful css class that enables you to outline sections of your page easily. This allows you to view your page sections as you add content to them, or add emphasis to a section (for example the download box on the right).</p>
 				
 				<div class="panel">
-					<h5>My Panel is bigger than yours</h5>
+					<h5>My panel is bigger than yours.</h5>
+					<p>Seriously, just look at this sweet panel.</p>
 				</div>
 				
 				<p>
-					<script type="text/javascript" src="http://snipt.net/embed/3d0e300df47141037c18db6489773a63"></script>
+					<script type="text/javascript" src="http://snipt.net/embed/66b5c85cee4ee8648ad51dfcf2c2ffd6"></script>
 				</p>
 				
 				<hr/>
@@ -82,6 +83,7 @@
 						<p>Tabs are made of <strong>two objects:</strong> a DL object containing the tabs themselves, and a UL object containing the tab content. If you simply want visual tabs (as seen in this documentation) without the on-page hookup, you only need the DL. If you want functional tabs, just be sure that each tab is linked to an ID, and that the corresponding tab has an ID of tabnameTab. Check out these examples.</p>
 					</div>
 				</div>
+				<p><em>Note: The third tab is using the <a href="layout.php">mobile visibility classes</a> to hide on small devices.</em></p>
 				<h5>Simple Tabs</h5>
 				<dl class="tabs">
 					<dd><a href="#simple1" class="active">Simple Tab 1</a></dd>
